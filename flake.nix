@@ -13,7 +13,6 @@
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
           nodejs
-          nodePackages.pnpm
           nodePackages.prettier
 		      nodePackages.eslint
           nodePackages.typescript
